@@ -65,8 +65,9 @@ button:hover {
 }
 
 .success {
-  color: var(--ok);
+  color: var(--card);
   margin-top: var(--space);
+  text-align: center;
 }
 
 .error {

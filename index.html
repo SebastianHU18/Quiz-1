@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EXAMEN WEB 1.0</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="container">
+    <section class="card">
+      <h1>EXAMEN WEB 1.0</h1>
+
+      <form id="form">
+        <label for="name">Nombre</label>
+        <input 
+          id="name" 
+          type="text" 
+          required 
+          minlength="3" 
+          placeholder="Ejemplo: Sebastian Higuita" 
+        />
+
+        <label for="mood">Estado de ánimo</label>
+        <select required>
+          <option value="">Selecciona una opción</option>
+          <option value="feliz">Feliz</option>
+          <option value="serio">Serio</option>
+          <option value="cansado">Cansado</option>
+        </select>
+        <button type="submit">Generar</button>
+        <button type="button" id="resetBtn">Reiniciar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    Entrega: WEB-01 | Grupo: <span id="group"></span> | Código: <span id="code"></span>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
